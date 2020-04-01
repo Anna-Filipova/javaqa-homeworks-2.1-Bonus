@@ -1,12 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        boolean accruals;
-        accruals = true;
-        int calculation;
-        if (accruals > 1000) calculation = 1;
-        if (accruals < 1000) calculation = 0;
-        long amount = 100;
-        long bonus = amount + calculation;
-        System.out.println(bonus);
-    }
+        long reffil;
+        long account = 100;
+        long bonus;
+            if (reffil >= 1000) {
+                bonus = reffil / 100;
+            } else {
+                bonus = 0;
+            }
+            long total = account + reffil + bonus;
+            System.out.println(total);
+        }
 }
