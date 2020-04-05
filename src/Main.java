@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        long reffil;
+        long reffil = 1000;
         long account = 100;
         long bonus;
             if (reffil >= 1000) {
